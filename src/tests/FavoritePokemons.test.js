@@ -2,7 +2,7 @@ import React from 'react';
 import userEvent from '@testing-library/user-event';
 import { screen } from '@testing-library/react';
 import App from '../App';
-import renderWithRouter from '../renderWithRout';
+import renderWithRouter from '../renderWithRouter';
 
 describe('Requisito 3: Teste o componente <FavoritePokemons.js />', () => {
   test(`Verifica se é exibido na tela a mensagem No favorite pokemon found, 

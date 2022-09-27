@@ -1,7 +1,7 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
-import renderWithRouter from '../renderWithRout';
+import renderWithRouter from '../renderWithRouter';
 import App from '../App';
 
 describe('Requisito 5: Teste o componente <Pokedex.js />', () => {

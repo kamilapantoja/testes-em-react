@@ -1,4 +1,3 @@
-//src/renderWithRouter.js
 import React from 'react';
 import { Router } from 'react-router-dom';
 import { createMemoryHistory } from 'history';
@@ -12,3 +11,4 @@ const renderWithRouter = (component) => {
   });
 };
 export default renderWithRouter;
+//testando avaliador
